@@ -12,3 +12,4 @@ router.delete("/deleteWorkout/:workoutId", verify, workoutController.deleteWorko
 router.patch("/completeWorkoutStatus/:workoutId", verify, workoutController.completeWorkoutStatus);
 
 module.exports = router;
+
